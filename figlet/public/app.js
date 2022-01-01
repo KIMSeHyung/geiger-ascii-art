@@ -12,7 +12,7 @@ fetch(`/geiger/GEIGER`)
 .then((res) => res.text())
 .then((data) => {
   console.log(data);
-  ascii.innerText = "asdfasfasdlfkasldfkajsdlfkasjdasdfasdfasdfasdf"
+  ascii.innerText = data
 })
 .catch((error) => {
   console.log(error);
