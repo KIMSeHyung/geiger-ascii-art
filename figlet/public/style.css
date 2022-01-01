@@ -12,11 +12,11 @@ body {
 
 @media (min-width: 320px) and (max-width: 480px) {
   pre {
-    overflow-x: auto;
+    overflow-x: scroll;
     display: inline-block;
     font-family: "Lucida Console", Monaco, monospace;
     letter-spacing: -0.1em;
-    line-height: 0.8em;
+    line-height: 0.9em;
     margin-bottom: 50px;
     font-size: 22px;
   }
