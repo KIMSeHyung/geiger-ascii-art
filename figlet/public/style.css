@@ -12,14 +12,13 @@ body {
 
 @media (min-width: 320px) and (max-width: 480px) {
   pre {
-    width: 300px;
     overflow-x: auto;
     display: inline-block;
     font-family: "Lucida Console", Monaco, monospace;
     letter-spacing: -0.1em;
     line-height: 0.8em;
     margin-bottom: 50px;
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 
