@@ -8,7 +8,7 @@ ascii.innerText = geiger;
 console.log(geiger);
 console.log("-------ASCII ART FOR GEIGER-------");
 
-fetch(`/geiger/${text}`)
+fetch(`/geiger/GEIGER`)
 .then((res) => res.text())
 .then((data) => {
   console.log(data);
